@@ -1,0 +1,7 @@
+<%= @job.title %><br>
+<%= @job.description %><br>
+<%= @job.company %><br>
+<%= @job.url %><br>
+
+<%= link_to 'Back', root_path %>
+<%= link_to "Delete", job_path(@job), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-sm btn-default" %>
