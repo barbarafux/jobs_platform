@@ -1,5 +1,9 @@
 <%= form_for(@job) do |f| %>
   <div class="form-group">
+    <%= f.collection_select :category_id, Category.all, :id, :name, { prompt: "Choose a category" } %>
+  </div>
+
+  <div class="form-group">
     <%= f.label :title %><br>
     <%= f.text_field :title, class: "form-control" %>
   </div>
