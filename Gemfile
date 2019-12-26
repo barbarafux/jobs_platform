@@ -14,7 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc				# bundle exec rake doc:rails generates th
 # gem 'unicorn'									# Use Unicorn as the app server
 # gem 'capistrano-rails', group: :development	# Use Capistrano for deployment 				
 
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 group :development do
   gem 'web-console', '~> 2.0'					# Access an IRB console on exception pages or by using <%= console %> in views
